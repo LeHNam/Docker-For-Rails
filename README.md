@@ -39,6 +39,7 @@ Create environment for Ruby In Docker , Debug with RubyMine In Windown
       ```
       docker-compose up -d
       ```
+      
 3.Check Docker containers
       ```
       docker-compose ps
