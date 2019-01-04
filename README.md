@@ -65,20 +65,22 @@ Create environment for Ruby In Docker , Debug with RubyMine In Windown
 
 ![image](https://user-images.githubusercontent.com/38838516/49879929-a052e180-fe5d-11e8-94a0-8fab6e0f0fca.png)
 
-7. Connect Docker in Rubymine
+6. Connect Docker in Rubymine
 ![image](https://user-images.githubusercontent.com/38838516/49880693-48b57580-fe5f-11e8-893d-d61cfee7c6d1.png)
 
-6. Start Debug Server
+7. Connect server In Docker
+command: rdebug-ide --host 0.0.0.0 --port 1234 --dispatcher-port 26162 -- bin/rails server -e development -b 0.0.0.0 -p 3000
+
+8. Start Debug Server
 ![image](https://user-images.githubusercontent.com/38838516/49879884-83b6a980-fe5d-11e8-90a8-5c7124cecaad.png)
 
 Wait 1 min to start 
 
 ![image](https://user-images.githubusercontent.com/38838516/49880747-64b91700-fe5f-11e8-91f7-38aa459e4996.png)
 
-7. Set breakpoint and debug
+9. Set breakpoint and debug
 
 ![image](https://user-images.githubusercontent.com/38838516/49881009-e7da6d00-fe5f-11e8-9b01-44ec08c8ac43.png)
 
-command: rdebug-ide --host 0.0.0.0 --port 1234 --dispatcher-port 26162 -- bin/rails server -e development -b 0.0.0.0 -p 3000
   
       
