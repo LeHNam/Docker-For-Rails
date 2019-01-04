@@ -79,6 +79,6 @@ Wait 1 min to start
 
 ![image](https://user-images.githubusercontent.com/38838516/49881009-e7da6d00-fe5f-11e8-9b01-44ec08c8ac43.png)
 
-
+command: rdebug-ide --host 0.0.0.0 --port 1234 --dispatcher-port 26162 -- bin/rails server -e development -b 0.0.0.0 -p 3000
   
       
